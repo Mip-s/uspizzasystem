@@ -99,7 +99,7 @@ function App() {
 	const [isCustomerDetailsOpen, setIsCustomerDetailsOpen] = useState(false);
 	const [customerName, setCustomerName] = useState("");
 	const [deliveryAddress, setDeliveryAddress] = useState<DeliveryAddress>({ unit: "", street: "", postcode: "", city: "", state: "" });
-	const [isCartVisible, setIsCartVisible] = useState(true);
+	const [isCartVisible, setIsCartVisible] = useState(false);
 	const [isPaymentOpen, setIsPaymentOpen] = useState(false);
 	const [showThankYou, setShowThankYou] = useState(false);
 	const [selectedPaymentMethod, setSelectedPaymentMethod] = useState<PaymentMethod | null>(null);
