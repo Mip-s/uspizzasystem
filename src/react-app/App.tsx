@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import usPizzaLogo from "../../contents stuff/USpizza-logo-NEW.webp";
-import usPizzaHero from "../../contents stuff/US-Pizza_Web-Cover-1_1920x1080.webp";
+import usPizzaLogo from "./assets/us-pizza-logo.webp";
+import usPizzaHero from "./assets/us-pizza-hero.webp";
 import "./App.css";
 
 type MenuItem = { id: string; name: string; description: string; price: number; category: string; image: string; badge?: string };
